@@ -13,8 +13,8 @@ Click on API Development Tools
 Create a new application, by entering the required details
 
 if Telegram is blocked by your ISP, you can try the @useTGxBot""")
-APP_ID = int(input("Enter APP ID here: "))
-API_HASH = input("Enter API HASH here: ")
+APP_ID = int(input("1265906 "))
+API_HASH = input("302162de66bc72beae762bb866fe4d96 ")
 
 with TelegramClient(StringSession(), APP_ID, API_HASH) as client:
     session_string = client.session.save()
